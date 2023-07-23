@@ -1,3 +1,4 @@
+/* Default styles for all screen sizes */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -21,11 +22,11 @@ h1 {
 button {
   background-color: #4CAF50;
   color: white;
-  padding: 10px 20px;
+  padding: 14px 28px; /* Increase padding for larger button size */
   border: none;
   cursor: pointer;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 18px; /* Increase font size for larger button text */
 }
 
 button:disabled {
@@ -48,8 +49,23 @@ button:disabled {
 
   button {
     padding: 12px 24px; /* Increase padding for larger button size */
-    font-size: 18px; /* Increase font size for larger button text */
+    font-size: 16px; /* Adjust font size for better readability on smaller screens */
+  }
+
+  /* Mobile-friendly navigation - example of using a hamburger menu */
+  .nav {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-mobile {
+    display: none;
+    /* Add styles for the mobile navigation menu here */
   }
 }
+
 
   
