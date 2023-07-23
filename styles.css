@@ -1,70 +1,39 @@
-/* Default styles for all screen sizes */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h1 {
-  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 #combinations-container {
-  font-size: 18px;
-  margin: 20px auto;
-  width: 70%;
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #f9f9f9;
-  white-space: pre-wrap; /* Preserve line breaks */
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 button {
+  font-size: 24px;
+  padding: 10px 20px;
   background-color: #4CAF50;
-  color: white;
-  padding: 14px 28px; /* Increase padding for larger button size */
+  color: #fff;
   border: none;
   cursor: pointer;
-  margin-top: 10px;
-  font-size: 18px; /* Increase font size for larger button text */
+  border-radius: 5px;
 }
 
-button:disabled {
-  background-color: #aaa;
-  cursor: not-allowed;
-}
-
-/* Styles for mobile devices with a maximum width of 768 pixels */
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px; /* Adjust font size for better readability on smaller screens */
-    margin: 10px; /* Reduce margin for better use of screen space */
-  }
-
-  #combinations-container {
-    font-size: 16px; /* Adjust font size for better readability on smaller screens */
-    width: 90%; /* Increase container width to use more screen space */
-    padding: 8px; /* Reduce padding for better use of screen space */
-  }
-
-  button {
-    padding: 12px 24px; /* Increase padding for larger button size */
-    font-size: 16px; /* Adjust font size for better readability on smaller screens */
-  }
-
-  /* Mobile-friendly navigation - example of using a hamburger menu */
-  .nav {
-    display: none;
-  }
-
-  .hamburger-menu {
-    display: block;
-  }
-
-  .nav-mobile {
-    display: none;
-    /* Add styles for the mobile navigation menu here */
-  }
+button:hover {
+  background-color: #45a049;
 }
 
 
