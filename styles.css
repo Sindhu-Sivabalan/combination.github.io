@@ -47,8 +47,8 @@ button:disabled {
   }
 
   button {
-    padding: 8px 16px; /* Reduce padding for better use of screen space */
-    font-size: 14px; /* Adjust font size for better readability on smaller screens */
+    padding: 12px 24px; /* Increase padding for larger button size */
+    font-size: 18px; /* Increase font size for larger button text */
   }
 }
 
