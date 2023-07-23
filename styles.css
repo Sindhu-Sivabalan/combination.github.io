@@ -1,36 +1,55 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#combinations-container {
+  font-size: 18px;
+  margin: 20px auto;
+  width: 70%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  white-space: pre-wrap; /* Preserve line breaks */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Styles for mobile devices with a maximum width of 768 pixels */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust font size for better readability on smaller screens */
+    margin: 10px; /* Reduce margin for better use of screen space */
   }
-  
-  h1 {
-    color: #333;
-  }
-  
+
   #combinations-container {
-    font-size: 18px;
-    margin: 20px auto;
-    width: 70%;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #f9f9f9;
-    white-space: pre-wrap; /* Preserve line breaks */
+    font-size: 16px; /* Adjust font size for better readability on smaller screens */
+    width: 90%; /* Increase container width to use more screen space */
+    padding: 8px; /* Reduce padding for better use of screen space */
   }
-  
+
   button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: 16px;
+    padding: 8px 16px; /* Reduce padding for better use of screen space */
+    font-size: 14px; /* Adjust font size for better readability on smaller screens */
   }
-  
-  button:disabled {
-    background-color: #aaa;
-    cursor: not-allowed;
-  }
-  
+}
+
   
